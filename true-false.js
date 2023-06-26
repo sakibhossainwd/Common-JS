@@ -14,3 +14,12 @@ Falsy:
 4. undefined
 5. null
 */
+
+let x = null;
+console.log(x);
+if(x){
+    console.log('The x value is truthy')
+}
+else{
+    console.log('The x value is falsy')
+}
