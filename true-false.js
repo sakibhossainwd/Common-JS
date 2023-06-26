@@ -30,3 +30,8 @@ const y = null ;
 if(!y){
     console.log('value is falsy')
 }
+
+// check true
+if(!!x){
+    console.log('value is truthy');
+}
