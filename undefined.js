@@ -31,3 +31,13 @@ function third(a, b, c, d){
 const result1 = third(5, 10);
 console.log(result1);
 
+// 4
+function noNegative(a, b){
+    if(a < 0 || b < 0){
+        return
+    }
+    return a + b
+}
+const total = noNegative(5, 2);
+console.log(total);
+
