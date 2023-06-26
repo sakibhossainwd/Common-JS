@@ -26,10 +26,10 @@ const result = secsond()
 // 3
 function third(a, b, c, d){
     const total = a + b + c + d;
-    console.log(a, b, c, d);
+    // console.log(a, b, c, d);
 }
 const result1 = third(5, 10);
-console.log(result1);
+// console.log(result1);
 
 // 4
 function noNegative(a, b){
@@ -39,13 +39,14 @@ function noNegative(a, b){
     return a + b
 }
 const total = noNegative(5, -2);
-console.log(total);
+// console.log(total);
 
 // 5
 const fifth = {id: 2, name: 'sakib', age: 20};
-console.log(fifth.age, fifth.skill);
+// console.log(fifth.age, fifth.skill);
 
 // 6
 const sixth = [4, 6, 85, 61, 37];
+delete sixth[1];
 console.log(sixth[1], sixth[4], sixth[7]);
-
+console.log(sixth);
