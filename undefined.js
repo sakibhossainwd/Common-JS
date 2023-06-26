@@ -10,3 +10,16 @@
 8. set a value directly to undefined
 */
 
+// live code example
+
+// 1
+let first ;
+console.log(first);
+
+// 2 
+function secsond(a , b){
+    const total = a + b;
+}
+const result = secsond()
+console.log(result)
+
