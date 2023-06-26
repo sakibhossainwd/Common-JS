@@ -53,3 +53,10 @@ console.log(sixth[1], sixth[4], sixth[7]);
 // you should not do it. Instead use splice
 delete sixth[1];
 console.log(sixth);
+
+// 8
+const seventh = undefined;
+
+// 9
+const eighth = null;
+
