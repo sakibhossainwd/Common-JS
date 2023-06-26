@@ -23,3 +23,10 @@ if(x){
 else{
     console.log('The x value is falsy')
 }
+
+// ooptinal
+// check falsy
+const y = null ;
+if(!y){
+    console.log('value is falsy')
+}
