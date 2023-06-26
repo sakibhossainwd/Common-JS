@@ -38,6 +38,13 @@ function noNegative(a, b){
     }
     return a + b
 }
-const total = noNegative(5, 2);
+const total = noNegative(5, -2);
 console.log(total);
+
+// 5
+const fifth = {id: 2, name: 'sakib', age: 20};
+console.log(fifth.age, fifth.skill);
+
+// 6
+
 
