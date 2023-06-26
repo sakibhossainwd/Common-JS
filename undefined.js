@@ -14,12 +14,20 @@
 
 // 1
 let first ;
-console.log(first);
+// console.log(first);
 
 // 2 
 function secsond(a , b){
     const total = a + b;
 }
 const result = secsond()
-console.log(result)
+// console.log(result)
+
+// 3
+function third(a, b, c, d){
+    const total = a + b + c + d;
+    console.log(a, b, c, d);
+}
+const result1 = third(5, 10);
+console.log(result1);
 
