@@ -6,4 +6,10 @@ Truthy:
 4. '0', 'false'
 5. {}
 6. []
+
+Falsy:
+1. false
+2. 0
+3. '' (empty string)
+
 */
