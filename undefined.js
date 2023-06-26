@@ -47,12 +47,12 @@ const fifth = {id: 2, name: 'sakib', age: 20};
 
 // 6
 const sixth = [4, 6, 85, 61, 37];
-console.log(sixth[1], sixth[4], sixth[7]);
+// console.log(sixth[1], sixth[4], sixth[7]);
 
 // 7
 // you should not do it. Instead use splice
 delete sixth[1];
-console.log(sixth);
+// console.log(sixth);
 
 // 8
 const seventh = undefined;
@@ -60,3 +60,7 @@ const seventh = undefined;
 // 9
 const eighth = null;
 
+const data = {results: [], updated: null};
+
+console.log(typeof undefined);
+console.log(typeof null);
