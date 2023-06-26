@@ -47,6 +47,9 @@ const fifth = {id: 2, name: 'sakib', age: 20};
 
 // 6
 const sixth = [4, 6, 85, 61, 37];
-delete sixth[1];
 console.log(sixth[1], sixth[4], sixth[7]);
+
+// 7
+// you should not do it. Instead use splice
+delete sixth[1];
 console.log(sixth);
