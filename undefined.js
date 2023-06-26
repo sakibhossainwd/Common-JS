@@ -46,5 +46,6 @@ const fifth = {id: 2, name: 'sakib', age: 20};
 console.log(fifth.age, fifth.skill);
 
 // 6
-
+const sixth = [4, 6, 85, 61, 37];
+console.log(sixth[1], sixth[4], sixth[7]);
 
