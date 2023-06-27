@@ -16,6 +16,6 @@ let w = y
 console.log(w);
 
 // resing obj
-let x = {name: 'Sakib Hossain'}
-let z = x;
-console.log(x)
+let x = {name: 'Sakib Hossain'};
+let u = {name: 'Rakib Hossain'};
+console.log(u, x);
