@@ -6,6 +6,11 @@ let a = 'Sakib'
 let b = '50'
 let c = 100
 let d = true
-// non-primitive data type
-let e = {name: 'Hossain'}
-let f = [10, 20, 30]
+// Composite/non-primitive data type
+let e = {name: 'Hossain'};
+let f = [10, 20, 30];
+
+// resing
+let y = 5
+let w = y
+console.log(w);
