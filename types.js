@@ -14,3 +14,8 @@ let f = [10, 20, 30];
 let y = 5
 let w = y
 console.log(w);
+
+// resing obj
+let x = {name: 'Sakib Hossain'}
+let z = x;
+console.log(x)
