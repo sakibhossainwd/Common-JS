@@ -32,6 +32,3 @@ if(!y){
 }
 
 // check true
-if(!!x){
-    console.log('value is truthy');
-}
