@@ -14,6 +14,16 @@ function greetingNight(name){
     console.log('Good Night',  name)
 }
 
-greeting(greetingHandler, 'Sakib Hossain')
-greeting(greetingEvening, 'Sakib Hossain')
-greeting(greetingNight, 'Sakib Hossain')
+greeting(greetingHandler, 'Sakib Hossain');
+greeting(greetingEvening, 'Sakib Hossain');
+greeting(greetingNight, 'Sakib Hossain');
+
+
+// live we will use
+function submitHandler(){
+    console.log('submit button clicked');
+}
+
+document.getElementById('btn-submit').addEventListener('click', submitHandler){
+    
+}
